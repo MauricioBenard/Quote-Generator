@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1515325458032-82fb25824501?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80");
+  background-size: 1500px;
+  display: flex;
+  justify-content: center;
+   family-type: font-family: 'Rubik Mono One', sans-serif;
+}
+
+@media (min-width: 680px, max-width  1500px) {
+  body {
+    padding: 20px;
+  }
+  
+}
+
+.container {
+    height: 50px;
+    text-align: center;
+ 
+}
+
+h2 {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  size: 50px;
+  family-type: font-family: 'Rubik Mono One', sans-serif;
+  color: #04063c;
+  font-size: 30px;
+}
+
+button {
+   margin-top: 15px;
+  background-color: #bf9b30;
+  border-radius: 5px;
+}
